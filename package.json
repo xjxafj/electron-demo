@@ -1,0 +1,22 @@
+{
+  "name": "DNA-SYN",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "package": "electron-packager . --platform=win32 --arch=x64 --overwrite --download.mirrorOptions.mirror=https://npm.taobao.org/mirrors/electron/ --icon=app.ico"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^4.8.6",
+    "electron-edge-js": "^12.16.3"
+  },
+  "devDependencies": {
+    "electron": "^10.1.6",
+    "electron-packager": "^15.1.0"
+  }
+}

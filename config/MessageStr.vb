@@ -1,0 +1,3 @@
+﻿Module MessageStr
+
+End Module
